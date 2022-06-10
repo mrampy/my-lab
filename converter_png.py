@@ -21,6 +21,8 @@ for image_file in os.listdir(jpg_folder):
     img = Image.open(f"{jpg_folder}\{image_file}")
     img.save(f"{png_folder}\{image_file_name}.png")
     
+#New comment by Developer B
+    
     
 
 
